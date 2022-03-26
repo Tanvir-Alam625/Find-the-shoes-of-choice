@@ -7,7 +7,7 @@
   width: 100%;
   height: 350px;
   object-fit: cover;
-  background-color: #443e883a;
+  background-color: #443e8825;
   border-radius: 8px 8px 0 0;
 }
 .card-info {
@@ -40,4 +40,10 @@
 }
 .card-info button p {
   margin-right: 5px;
+}
+/* ipad resposive design  */
+@media screen and (max-width: 768px) {
+  .card-info h3 {
+    font-size: 1.5em;
+  }
 }
