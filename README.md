@@ -1,6 +1,6 @@
 # Our Project Name: Find the shoes of choice
 
-[Live Site Link](https://github.com/facebook/create-react-app).
+[Live Site Link](https://stately-zuccutto-dec089.netlify.app/).
 
 ## project Description
 
