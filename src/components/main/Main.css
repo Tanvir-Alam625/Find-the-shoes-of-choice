@@ -26,6 +26,23 @@
   margin: 0;
   margin-bottom: 20px;
 }
+.carts-btn {
+  margin: 20px 0;
+}
+.choose-btn,
+.choose-again {
+  padding: 10px;
+  border: 1px solid #534bb3;
+  border-radius: 5px;
+  margin: 3px;
+  cursor: pointer;
+}
+.choose-btn {
+  background-color: rgba(127, 255, 212, 0.486);
+}
+.choose-again {
+  background-color: rgba(160, 14, 14, 0.363);
+}
 /* ipad resposive design  */
 @media screen and (max-width: 768px) {
   .main {
@@ -34,6 +51,9 @@
   .product-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
+  }
+  .carts-btn {
+    margin: 10px 0;
   }
 }
 /* mobile responsive design  */

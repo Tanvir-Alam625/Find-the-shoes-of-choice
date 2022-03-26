@@ -36,6 +36,10 @@ const Main = () => {
                     {
                         cart.map(product=> <Cart data={product} key={product.id}/>)
                     }
+            <div className="carts-btn">
+            <button className='choose-btn'>Choose 1 For Me</button>
+            <button className='choose-again'>Choose Again</button>
+            </div>
             </div>
             
         </div>
