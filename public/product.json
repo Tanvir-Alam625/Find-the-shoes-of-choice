@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Climibing Shoes",
+        "price": 50,
+        "img": "./images/shoes (1).png"
+        
+    },
+    {
+        "id": 2,
+        "name": "Boat Shoes",
+        "price": 45,
+        "img": "./images/shoes (2).png"
+        
+    },
+    {
+        "id": 3,
+        "name": "Old Shoes",
+        "price": 46,
+        "img": "./images/shoes (3).png"
+        
+    },
+    {
+        "id": 4,
+        "name": "Hiking Shoes",
+        "price": 59,
+        "img": "./images/shoes (4).png"
+        
+    },
+    {
+        "id": 5,
+        "name": "Derby Shoes",
+        "price": 52,
+        "img": "./images/shoes (5).png"
+        
+    },
+    {
+        "id": 6,
+        "name": "Monk Straps",
+        "price": 43,
+        "img": "./images/shoes (6).png"
+        
+    },
+    {
+        "id": 7,
+        "name": "Kitten Heels",
+        "price": 35,
+        "img": "./images/shoes (7).png"
+        
+    },
+    {
+        "id": 8,
+        "name": "High Heels",
+        "price": 61,
+        "img": "./images/shoes (8).png"
+        
+    },
+    {
+        "id": 9,
+        "name": "Hiring Boots",
+        "price": 47,
+        "img": "./images/shoes (9).png"
+        
+    },
+    {
+        "id": 10,
+        "name": "Laced Booties",
+        "price": 57,
+        "img": "./images/shoes (10).png"
+        
+    },
+    {
+        "id": 11,
+        "name": "Lita Shoes",
+        "price": 54,
+        "img": "./images/shoes (11).png"
+        
+    },
+    {
+        "id": 12,
+        "name": "Ballet Flat Shoes",
+        "price": 60,
+        "img": "./images/shoes (12).png"
+        
+    }
+]
