@@ -1,8 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Our Project Name: Find the shoes of choice
+
+[Live Site Link](https://github.com/facebook/create-react-app).
+
+## project Description
+
+There are some products in my project. Select the 4 products of your choice and randomly one of those 4 products will make you like it. Thank you!
 
 ## Available Scripts
 

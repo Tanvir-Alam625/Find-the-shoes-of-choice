@@ -13,15 +13,29 @@ const Main = () => {
         .then(res=> res.json())
         .then(data=> setProducts(data))
     } ,[])
+    // error message {
+        const error =document.createElement('h3');
+        const getErrorMessage = (msg)=>{
+            error.classList = "error";
+            const main = document.getElementById('main');
+            error.innerText = msg;
+            main.appendChild(error)
+            setTimeout(restError, 5000)
+        }
+        const restError =()=>{
+            error.style.display = 'none';
+        }
+    
     // =========================
     // cart button handler 
     // ===========================
     let productId =[];
     const getButtonHandler = (data)=>{
         const find = products.find(product=> product.id === data.id);
-        const addedProduct = cart.filter(pro=> pro.id === find.id);
+        const addedProduct = cart.filter(product=> product.id === find.id);
         if(addedProduct.length>=1){
             console.log('some error');
+            getErrorMessage('This Item Already Exists!');
         }
         else if(cart.length < 4){
             productId=[...cart, find];
@@ -48,10 +62,12 @@ const Main = () => {
             const findCart = cart[randomItem];
             const newCart = [findCart];
             setCart(newCart)
+        }else{
+            getErrorMessage("please Select the four items!")
         }
     }
     return (
-        <div className='main'>
+        <div id='main' className='main'>
             <div className="product-container">
             {
                  products.map(product=> <Product key={product.id} data={product} btn={getButtonHandler}/>)
