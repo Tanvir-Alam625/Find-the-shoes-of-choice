@@ -1,0 +1,14 @@
+.header {
+  text-align: center;
+  padding: 10px 30px;
+  background-color: #544bb318;
+}
+.header h2 {
+  font-size: 3em;
+  color: #534bb3;
+  margin: 0;
+}
+.header h4 {
+  margin: 0;
+  font-size: 2em;
+}
