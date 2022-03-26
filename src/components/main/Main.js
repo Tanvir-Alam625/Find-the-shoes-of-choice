@@ -13,16 +13,16 @@ const Main = () => {
     let productId =[];
     const getButtonHandelar = (data)=>{
         const find = products.find(product=> product.id === data.id);
-        if(cart.length <4){
+        const addedProduct = cart.filter(pro=> pro.id === find.id);
+        if(addedProduct.length>=1){
+            console.log('some error');
+        }
+        else if(cart.length < 4){
             productId=[...cart, find];
             setCart(productId);
         }
     }
-    // cart[0]
-    console.log(cart)
-    //  if(cart.length <5){
-        //  console.log(cart);
-        // }
+    // console.log(cart)
     
     return (
         <div className='main'>
@@ -32,16 +32,15 @@ const Main = () => {
             }
             </div>
             <div className="cart-container">
-            <h3>Selected Clothes</h3>
-                    {
-                        cart.map(product=> <Cart data={product} key={product.id}/>)
-                    }
-            <div className="carts-btn">
-            <button className='choose-btn'>Choose 1 For Me</button>
-            <button className='choose-again'>Choose Again</button>
+                <h3>Selected Clothes</h3>
+                        {
+                            cart.map(product=> <Cart data={product} key={product.id}/>)
+                        }
+                <div className="carts-btn">
+                    <button className='choose-btn'>Choose 1 For Me</button>
+                    <button className='choose-again'>Choose Again</button>
+                </div>
             </div>
-            </div>
-            
         </div>
     );
 };

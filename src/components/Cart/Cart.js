@@ -11,9 +11,9 @@ const Cart = ({data}) => {
                 <h5>{name}</h5>
                 <small>${price}</small>
             </div>
-           <div className="delete-btn">
+           <button className="delete-btn">
            <FontAwesomeIcon icon={faTrash} />
-           </div>
+           </button>
         </div>
     );
 };
